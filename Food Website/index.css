@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-image: url("./food\ logo.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1340px;
+  height: 500px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  padding: 40px;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-form-search {
+  text-align: center;
+  margin: 80px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+}
+
+.select {
+  display: flex;
+  background-color: black;
+  width: 1000px;
+  height: 50px;
+}
+
+select {
+  height: 90%;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  outline: none;
+  /* background-color: grey; */
+  border-width: 5px;
+  width: 100%;
+}
+
+input {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  order: 2;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+/* Main Body */
+
+hr {
+  background-color: black;
+  margin: 50px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+#review {
+  margin: 50px;
+}
+
+.box {
+  margin-top: 50px;
+}
+
+.container {
+  border: 5px solid white;
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 50px;
+}
+
+.container1 {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ece1e1;
+}
+
+label {
+  display: inline-block;
+}
+
+img {
+  width: 305px;
+  height: 200px;
+}
+
+.contactInput {
+  margin: 50px;
+  outline-offset: 0px;
+  border-width: 0px 0px 2px 0px;
+  flex-wrap: wrap;
+  background-color: grey;
+  border: 2px solid brown;
+  display: inline-block;
+  height: 50px;
+  width: 800px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(13, 232, 46);
+  flex-direction: row;
+  height: 100px;
+}
+
+@media screen and (max-width: 1190px) {
+  body {
+    /* background-color: purple; */
+  }
+
+  header {
+    width: 100vw;
+  }
+
+  ul li {
+    padding: 5px;
+  }
+
+  nav ul li a {
+    font-size: 5px;
+    padding: 5px;
+    width: 5px;
+  }
+
+  .menu img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .heading {
+    display: none;
+  }
+
+  .header-form-search {
+    display: none;
+  }
+
+  .input-search {
+    display: none;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  img{
+    width: 80vw;
+  }
+
+  .right-section img {
+    display: none;
+  }
+
+  .contactInput {
+    width: 50vw;
+  }
+}
